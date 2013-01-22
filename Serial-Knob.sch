@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 22 Jan 2013 11:50:57 AM CET
+EESchema Schematic File Version 2  date Tue 22 Jan 2013 11:47:59 PM CET
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -410,21 +410,53 @@ Wire Wire Line
 	1700 3150 2900 3150
 Wire Wire Line
 	1800 1500 1900 1500
-Text Label 4300 3650 0    60   ~ 0
+Text Label 4250 3900 0    60   ~ 0
 MOSI
-Text Label 4300 3750 0    60   ~ 0
+Text Label 3350 3800 2    60   ~ 0
 MISO
-Text Label 4300 3850 0    60   ~ 0
+Text Label 3350 3900 2    60   ~ 0
 SCK
-Text Label 4300 3950 0    60   ~ 0
+Text Label 3350 4000 2    60   ~ 0
 RESET
 $Comp
-L CONN_4 P2
-U 1 1 50FE6A12
-P 3950 3800
-F 0 "P2" V 3900 3800 50  0000 C CNN
-F 1 "ISP" V 4000 3800 50  0000 C CNN
-	1    3950 3800
-	-1   0    0    1   
+L MADW__AVR_ISP JP1
+U 1 1 50FF0EC2
+P 3800 3900
+F 0 "JP1" H 3750 4100 50  0000 L BNN
+F 1 "ISP" H 3750 3600 50  0000 L BNN
+	1    3800 3900
+	1    0    0    -1  
 $EndComp
+$Comp
+L VCC #PWR013
+U 1 1 50FF0F17
+P 4250 3800
+F 0 "#PWR013" H 4250 3900 30  0001 C CNN
+F 1 "VCC" H 4250 3900 30  0000 C CNN
+	1    4250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 50FF0F26
+P 4250 4050
+F 0 "#PWR014" H 4250 4050 30  0001 C CNN
+F 1 "GND" H 4250 3980 30  0001 C CNN
+	1    4250 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3800 4250 3800
+Wire Wire Line
+	4100 3900 4250 3900
+Wire Wire Line
+	4100 4000 4250 4000
+Wire Wire Line
+	4250 4000 4250 4050
+Wire Wire Line
+	3350 4000 3500 4000
+Wire Wire Line
+	3500 3900 3350 3900
+Wire Wire Line
+	3500 3800 3350 3800
 $EndSCHEMATC
