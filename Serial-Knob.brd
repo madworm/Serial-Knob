@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Tue 22 Jan 2013 10:21:46 PM CET
+PCBNEW-BOARD Version 2 date Tue 22 Jan 2013 10:45:26 PM CET
 
 # Created by Pcbnew(2013-01-21 BZR 3918)-testing
 
@@ -10,7 +10,7 @@ EnabledLayers 12F08001
 Links 25
 NoConn 0
 Di 100.1318 82.319601 131.168667 108.625001
-Ndraw 19
+Ndraw 20
 Ntrack 138
 Nzone 0
 BoardThickness 1.6002
@@ -1982,6 +1982,11 @@ Ne 12 "N-0000012"
 Po 0 0.7493
 $EndPAD
 $EndMODULE MADW__R0603
+$TEXTPCB
+Te "blog.spitzenpfeil.org"
+Po 113 107.75 0.75 0.75 0.1875 0
+De 21 1 0 Normal
+$EndTEXTPCB
 $DRAWSEGMENT
 Po 0 101.5 106 101.5 88 0.25
 De 28 0 900 0 0
