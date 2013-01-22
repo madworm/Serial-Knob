@@ -4,6 +4,8 @@ Serial-Knob
 
 LAYOUT FILES: Rotary encoder + microcontroller. Sends commands via serial.
 
+ATtiny25/45/85 + ALPS STEC12E08.
+
 
 ---
 
