@@ -1,0 +1,4 @@
+Alternative parts:
+------------------
+
+ALPS STEC12E08 <--> EN12-HS22AF30 (Digikey: 987-1196-ND)
