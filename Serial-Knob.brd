@@ -1,17 +1,16 @@
-PCBNEW-BOARD Version 2 date Tue 22 Jan 2013 11:48:28 PM CET
+PCBNEW-BOARD Version 2 date Sun 27 Jan 2013 05:04:07 AM CET
 
-# Created by Pcbnew(2013-01-21 BZR 3918)-testing
+# Created by Pcbnew(2013-01-25 BZR 3922)-testing
 
 $GENERAL
 encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 12F08001
-VisibleLayers 12C08001
 Links 27
 NoConn 0
 Di 100.338467 82.319601 131.168667 108.625001
-Ndraw 20
+Ndraw 19
 Ntrack 174
 Nzone 0
 BoardThickness 1.6002
@@ -22,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet User 8268 5866
 Title "Serial Knob"
-Date "22 jan 2013"
+Date "27 jan 2013"
 Rev "0.1"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -2038,15 +2037,6 @@ $DRAWSEGMENT
 Po 2 104 88 101.5 88 0.25
 De 28 0 900 0 0
 $EndDRAWSEGMENT
-$TEXTPCB
-Te "MO"
-nl "MI"
-nl "SC"
-nl "RS"
-nl "ISP"
-Po 122.682 95.758 1.016 1.016 0.2032 0
-De 20 0 0 Normal
-$EndTEXTPCB
 $TEXTPCB
 Te "ALPS"
 Po 113 104.3 1 1 0.2 0
