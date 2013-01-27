@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-01-21 BZR 3918)-testing date = Tue 22 Jan 2013 11:48:09 PM CET
+Cmp-Mod V01 Created by PcbNew date = Sun 27 Jan 2013 10:15:04 AM CET
 
 BeginCmp
 TimeStamp = /4F76EBA8;
@@ -22,9 +22,9 @@ IdModule  = MADW__ALPS-STEC12E08;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F6EC673;
+TimeStamp = /5104EF69;
 Reference = IC1;
-ValeurCmp = ATtiny85;
+ValeurCmp = ATTINY85-S;
 IdModule  = MADW__SO8_200mil_wide;
 EndCmp
 
@@ -67,7 +67,7 @@ BeginCmp
 TimeStamp = /50FE4A96;
 Reference = P1;
 ValeurCmp = CONN_4;
-IdModule  = SIL-4;
+IdModule  = MADW__SIL-4;
 EndCmp
 
 BeginCmp

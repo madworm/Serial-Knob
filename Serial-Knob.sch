@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 22 Jan 2013 11:47:59 PM CET
+EESchema Schematic File Version 2  date Sun 27 Jan 2013 10:13:45 AM CET
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -30,8 +30,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:atmel_rev110
-LIBS:murata-resonators
 LIBS:Serial-Knob-cache
 EELAYER 27 0
 EELAYER END
@@ -39,7 +37,7 @@ $Descr User 8268 5906
 encoding utf-8
 Sheet 1 1
 Title "Serial Knob"
-Date "22 jan 2013"
+Date "27 jan 2013"
 Rev "0.1"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -110,16 +108,6 @@ F 0 "R7" V 2750 3550 50  0000 C CNN
 F 1 "10k" V 2650 3550 50  0000 C CNN
 	1    2750 3550
 	-1   0    0    1   
-$EndComp
-$Comp
-L ATTINY85-P IC1
-U 1 1 4F6EC673
-P 3100 2650
-F 0 "IC1" H 3200 2700 60  0000 C CNN
-F 1 "ATtiny85" H 5100 2700 60  0000 C CNN
-F 2 "DIP8" H 3200 1900 60  0001 C CNN
-	1    3100 2650
-	1    0    0    -1  
 $EndComp
 Connection ~ 2750 3250
 Wire Wire Line
@@ -459,4 +447,14 @@ Wire Wire Line
 	3500 3900 3350 3900
 Wire Wire Line
 	3500 3800 3350 3800
+$Comp
+L ATTINY85-S IC1
+U 1 1 5104EF69
+P 4250 3000
+F 0 "IC1" H 3200 3400 60  0000 C CNN
+F 1 "ATTINY85-S" H 5100 2600 60  0000 C CNN
+F 2 "SO8-200" H 3350 2600 60  0000 C CNN
+	1    4250 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
