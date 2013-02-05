@@ -1,6 +1,6 @@
-PCBNEW-BOARD Version 2 date Sun 27 Jan 2013 04:36:52 PM CET
+PCBNEW-BOARD Version 2 date Tue 05 Feb 2013 11:07:16 AM CET
 
-# Created by Pcbnew(2013-01-27 BZR 3925)-testing
+# Created by Pcbnew(2013-02-01 BZR 3927)-testing
 
 $GENERAL
 encoding utf-8
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet User 8268 5866
 Title "Serial Knob"
-Date "27 jan 2013"
+Date "5 feb 2013"
 Rev "0.1"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -151,7 +151,7 @@ AddNet "N-000006"
 AddNet "VCC"
 $EndNCLASS
 $MODULE MADW__PIN_ARRAY_3x2_2mm
-Po 104 94 2700 15 50FF0F16 5103C161 ~~
+Po 104 94 2700 15 5110D9A9 5103C161 ~~
 Li MADW__PIN_ARRAY_3x2_2mm
 Cd Male 3x2 header with 2.0mm raster
 Kw CONN, header, male, 3x2, 2mm
@@ -166,7 +166,7 @@ DS 3 -2 3 2 0.25 21
 DS 3 2 -3 2 0.25 21
 DS -3 2 -3 -2 0.25 21
 $PAD
-Sh "1" C 1.35 1.35 0 0 2700
+Sh "1" R 1.35 1.35 0 0 2700
 Dr 0.85 0 0
 At STD N 00E0FFFF
 Ne 5 "/MISO"
