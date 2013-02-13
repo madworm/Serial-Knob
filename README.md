@@ -9,6 +9,9 @@ ATtiny25/45/85 + ALPS STEC12E08.
 The microcontroller can evaluate direction of rotation, speed and acceleration + button status.
 Depending on the requirements, this can be encoded in one single byte and sent to the target.
 
+Step / direction decoding is also possible. By adding a multiplicator, this board could also
+be used as a stepper-controller tester. Turn the knob, and the stepper should follow.
+
 
 ---
 
