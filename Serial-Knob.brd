@@ -1,6 +1,6 @@
-PCBNEW-BOARD Version 2 date Mon 11 Feb 2013 04:10:17 PM CET
+PCBNEW-BOARD Version 2 date Wed 13 Feb 2013 01:02:03 PM CET
 
-# Created by Pcbnew(2013-02-09 BZR 3938)-testing
+# Created by Pcbnew(2013-02-11 BZR 3943)-testing
 
 $GENERAL
 encoding utf-8
@@ -21,8 +21,8 @@ $EndGENERAL
 $SHEETDESCR
 Sheet User 8268 5866
 Title "Serial Knob"
-Date "11 feb 2013"
-Rev "0.1"
+Date "13 feb 2013"
+Rev "0.11"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -2048,8 +2048,8 @@ Po 113.03 104.648 1 1 0.2 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "4"
-Po 111.7 89.7 1 1 0.2 0
+Te "DI"
+Po 111.7 89.4 1 1 0.2 900
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
@@ -2063,13 +2063,13 @@ Po 116.8 89.6 1 1 0.2 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "TX"
-Po 109.2 89.7 1 1 0.2 0
+Te "ST"
+Po 109.1 89.6 1 1 0.2 900
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "2013"
-Po 123.7 98.8 1 1 0.2 900
+Te "V0.11 2013"
+Po 123.7 98.8 0.8 0.8 0.2 900
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
