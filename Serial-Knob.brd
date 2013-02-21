@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Mon 18 Feb 2013 01:16:41 PM CET
+PCBNEW-BOARD Version 2 date Thu 21 Feb 2013 05:44:47 PM CET
 
 # Created by Pcbnew(2013-02-15 BZR 3956)-testing
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet User 8268 5866
 Title "Serial Knob"
-Date "18 feb 2013"
+Date "21 feb 2013"
 Rev "0.12"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -3660,13 +3660,13 @@ Po 114.3 89.6 1 1 0.2 0
 De 20 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "ST"
-Po 109.3 89.55 1 1 0.2 900
+Te "TX"
+Po 109.3 89.6 1 1 0.2 900
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "DI"
-Po 111.8 89.4 1 1 0.2 900
+Te "DIR"
+Po 111.8 89.8 1 1 0.2 900
 De 20 0 0 Normal
 $EndTEXTPCB
 $DRAWSEGMENT
@@ -3707,8 +3707,8 @@ Po 2 103.75 87.75 101.25 87.75 0.2
 De 28 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
-Te "DI"
-Po 111.7 89.4 1 1 0.2 900
+Te "DIR"
+Po 111.7 89.8 1 1 0.2 900
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
@@ -3722,8 +3722,8 @@ Po 116.8 89.6 1 1 0.2 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "ST"
-Po 109.3 89.6 1 1 0.2 900
+Te "TX"
+Po 109.3 89.5 1 1 0.2 900
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
