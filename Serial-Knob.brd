@@ -1,6 +1,6 @@
-PCBNEW-BOARD Version 2 date Thu 21 Feb 2013 05:44:47 PM CET
+PCBNEW-BOARD Version 2 date Sat 23 Feb 2013 05:54:28 PM CET
 
-# Created by Pcbnew(2013-02-15 BZR 3956)-testing
+# Created by Pcbnew(2013-02-22 BZR 3968)-testing
 
 $GENERAL
 encoding utf-8
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet User 8268 5866
 Title "Serial Knob"
-Date "21 feb 2013"
+Date "23 feb 2013"
 Rev "0.12"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -114,11 +114,11 @@ Na 11 "GND"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 12 "N-0000011"
+Na 12 "N-0000012"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 13 "N-000006"
+Na 13 "N-000004"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -145,8 +145,8 @@ AddNet "/PB4"
 AddNet "/RESET"
 AddNet "/SCK"
 AddNet "/TX"
-AddNet "N-0000011"
-AddNet "N-000006"
+AddNet "N-0000012"
+AddNet "N-000004"
 $EndNCLASS
 $NCLASS
 Name "power"
@@ -1874,7 +1874,7 @@ $PAD
 Sh "3" R 0.7 2.2 0 0 -0
 Dr 0 0 0
 At SMD N 00440001
-Ne 13 "N-000006"
+Ne 13 "N-000004"
 Po 0.635 -3.81
 $EndPAD
 $PAD
@@ -1918,7 +1918,7 @@ Po 113 99 0 15 511BE50E 50FE4843 ~~
 Li MADW__ALPS-STEC12E08
 Kw rotary, encoder, ALPS
 Sc 50FE4843
-AR /50FE4588
+AR /5128F4BC
 Op 0 0 0
 .LocalClearance 0.3
 T0 0 -10.9 1 1 0 0.25 N I 21 N "ENC1"
@@ -3306,7 +3306,7 @@ $PAD
 Sh "1" R 1.19888 1.19888 0 0 2700
 Dr 0 0 0
 At SMD N 00888000
-Ne 12 "N-0000011"
+Ne 12 "N-0000012"
 Po -1.04902 0
 $EndPAD
 $PAD
@@ -3337,7 +3337,7 @@ $PAD
 Sh "2" R 0.79756 0.79756 0 0 1800
 Dr 0 0 0
 At SMD N 00440001
-Ne 13 "N-000006"
+Ne 13 "N-000004"
 Po 0.7518 0.0075
 $EndPAD
 $PAD
@@ -3498,7 +3498,7 @@ $PAD
 Sh "1" R 0.79756 0.79756 0 0 1800
 Dr 0 0 0
 At SMD N 00440001
-Ne 12 "N-0000011"
+Ne 12 "N-0000012"
 Po -0.7468 0.0075
 $EndPAD
 $EndMODULE MADW__R0603
