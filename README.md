@@ -12,6 +12,8 @@ Depending on the requirements, this can be encoded in one single byte and sent t
 Step / direction decoding is also possible. By adding a multiplicator, this board could also
 be used as a stepper-controller tester. Turn the knob, and the stepper should follow.
 
+You will find code for this project in [this](https://github.com/madworm/ATtiny_projects/tree/master/85/Serial-Knob) repository.
+
 
 ---
 
