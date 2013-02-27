@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Tue 26 Feb 2013 09:39:07 AM CET
+PCBNEW-BOARD Version 2 date Wed 27 Feb 2013 02:24:08 AM CET
 
 # Created by Pcbnew(2013-02-22 BZR 3968)-testing
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet User 8268 5866
 Title "Serial Knob"
-Date "26 feb 2013"
+Date "27 feb 2013"
 Rev "0.12"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -3669,7 +3669,7 @@ S4 0 104 84.000001 105.126503 83.413581 0.2
 $endCOTATION
 $TEXTPCB
 Te "EN12"
-nl "HS22AF30"
+nl "HS22AF20"
 Po 113 93.7 0.9 0.9 0.2 0
 De 21 1 0 Normal
 $EndTEXTPCB
