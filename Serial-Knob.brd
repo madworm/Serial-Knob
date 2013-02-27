@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Wed 27 Feb 2013 02:24:08 AM CET
+PCBNEW-BOARD Version 2 date Wed 27 Feb 2013 09:19:52 AM CET
 
 # Created by Pcbnew(2013-02-22 BZR 3968)-testing
 
@@ -20,7 +20,7 @@ $EndGENERAL
 
 $SHEETDESCR
 Sheet User 8268 5866
-Title "Serial Knob"
+Title "Serial Knob - a.k.a. \"The Knob\""
 Date "27 feb 2013"
 Rev "0.12"
 Comp "2013 - blog.spitzenpfeil.org"
