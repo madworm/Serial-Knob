@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Sun 27 Jan 2013 04:17:12 PM CET
+Cmp-Mod V01 Created by PcbNew date = Thu 28 Feb 2013 01:50:15 PM CET
 
 BeginCmp
 TimeStamp = /4F76EBA8;
@@ -15,7 +15,7 @@ IdModule  = MADW__CHIPLED-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /50FE4588;
+TimeStamp = /5128F4BC;
 Reference = ENC1;
 ValeurCmp = ALPS-STEC12E08;
 IdModule  = MADW__ALPS-STEC12E08;
@@ -74,49 +74,49 @@ BeginCmp
 TimeStamp = /50FE472E;
 Reference = R1;
 ValeurCmp = 1k;
-IdModule  = MADW__R0603;
+IdModule  = -R0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FE473D;
 Reference = R2;
 ValeurCmp = 1k;
-IdModule  = MADW__R0603;
+IdModule  = -R0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FE474C;
 Reference = R3;
 ValeurCmp = 1k;
-IdModule  = MADW__R0603;
+IdModule  = -R0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50EDA6E8;
 Reference = R4;
 ValeurCmp = 1k;
-IdModule  = MADW__R0603;
+IdModule  = -R0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FE56B2;
 Reference = R5;
 ValeurCmp = 1k;
-IdModule  = MADW__R0603;
+IdModule  = -R0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50FE56C1;
 Reference = R6;
 ValeurCmp = 1k;
-IdModule  = MADW__R0603;
+IdModule  = -R0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F6EC6DD;
 Reference = R7;
 ValeurCmp = 10k;
-IdModule  = MADW__R0603;
+IdModule  = -R0805;
 EndCmp
 
 EndListe
