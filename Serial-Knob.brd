@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Wed 27 Feb 2013 09:19:52 AM CET
+PCBNEW-BOARD Version 2 date Thu 28 Feb 2013 03:11:14 AM CET
 
 # Created by Pcbnew(2013-02-22 BZR 3968)-testing
 
@@ -7,11 +7,12 @@ encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 12F08001
+VisibleLayers 12C08001
 Links 27
 NoConn 0
 Di 94.600001 79.600001 133.833334 108.850001
 Ndraw 39
-Ntrack 190
+Ntrack 237
 Nzone 0
 BoardThickness 1.6002
 Nmodule 20
@@ -21,7 +22,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet User 8268 5866
 Title "Serial Knob - a.k.a. \"The Knob\""
-Date "27 feb 2013"
+Date "28 feb 2013"
 Rev "0.12"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -34,12 +35,13 @@ $SETUP
 Layers 2
 Layer[0] Back signal
 Layer[15] Front signal
-TrackWidth 0.25
+TrackWidth 0.01
+TrackWidthList 0.01
 TrackWidthList 0.18
 TrackClearence 0.18
 ZoneClearence 0.2
 Zone_45_Only 1
-TrackMinWidth 0.18
+TrackMinWidth 0.01
 DrawSegmWidth 0.05
 EdgeSegmWidth 0.2
 ViaSize 0.65
@@ -61,7 +63,7 @@ PadDrill 1.1
 Pad2MaskClearance 0
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
-VisibleElements 7FFFFFBF
+VisibleElements 7FFFFF0F
 PcbPlotParams (pcbplotparams (layerselection 317751297) (usegerberextensions true) (excludeedgelayer false) (linewidth 80) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerber_files/))
 $EndSETUP
 
@@ -4025,6 +4027,100 @@ Po 0 108.75 93.7507 108.75 87.69 0.25 -1
 De 0 0 10 0 30
 Po 0 108.75 87.69 109.19 87.25 0.25 -1
 De 0 0 10 50FE75D3 30
+Po 0 123.5 91.5 119.25 91.5 0.01 -1
+De 0 0 11 0 0
+Po 0 118.75 105.25 120.25 103.75 0.01 -1
+De 15 0 11 512EBC1F 0
+Po 0 120.25 103.75 121 103.75 0.01 -1
+De 15 0 11 512EBC23 0
+Po 0 121 103.75 122 102.75 0.01 -1
+De 15 0 11 512EBC27 0
+Po 0 122 102.75 123.5 102.75 0.01 -1
+De 15 0 11 512EBC2A 0
+Po 3 123.5 102.75 123.5 102.75 1 -1
+De 15 1 11 0 0
+Po 0 123.5 102.75 123.5 100.75 0.01 -1
+De 0 0 11 512EBC31 0
+Po 3 123.5 100.75 123.5 100.75 1 -1
+De 15 1 11 0 0
+Po 0 123.5 100.75 123.5 98.75 0.01 -1
+De 15 0 11 512EBC34 0
+Po 3 123.5 98.75 123.5 98.75 1 -1
+De 15 1 11 0 0
+Po 0 123.5 98.75 123.5 96.75 0.01 -1
+De 0 0 11 512EBC37 0
+Po 3 123.5 96.75 123.5 96.75 1 -1
+De 15 1 11 0 0
+Po 0 123.5 96.75 123.5 91.5 0.01 -1
+De 15 0 11 512EBC3A 0
+Po 3 123.5 91.5 123.5 91.5 1 -1
+De 15 1 11 0 0
+Po 0 113 106.5 114.5 108 0.01 -1
+De 0 0 11 0 0
+Po 3 118.75 107.5 118.75 107.5 1 -1
+De 15 1 11 0 0
+Po 0 118.25 108 118.75 107.5 0.01 -1
+De 0 0 11 512EBBBA 0
+Po 0 114.5 108 118.25 108 0.01 -1
+De 0 0 11 512EBBB7 0
+Po 0 118.75 107.5 118.75 105.25 0.01 -1
+De 15 0 11 0 0
+Po 3 119 91.25 119 91.25 1 -1
+De 15 1 11 0 0
+Po 0 119.25 91.5 119 91.25 0.01 -1
+De 0 0 11 512EBC7A 0
+Po 0 113 106.5 112.75 106.5 0.01 -1
+De 15 0 11 0 0
+Po 3 108.75 104.5 108.75 104.5 1 -1
+De 15 1 11 0 0
+Po 0 110.75 104.5 108.75 104.5 0.01 -1
+De 15 0 11 512EBBCE 0
+Po 0 112.75 106.5 110.75 104.5 0.01 -1
+De 15 0 11 512EBBC8 0
+Po 0 113 106.5 111.5 108 0.01 -1
+De 15 0 11 0 0
+Po 3 107.5 107.5 107.5 107.5 1 -1
+De 15 1 11 0 0
+Po 0 108 108 107.5 107.5 0.01 -1
+De 15 0 11 512EBBAF 0
+Po 0 111.5 108 108 108 0.01 -1
+De 15 0 11 512EBBAC 0
+Po 0 102.95 96 102.95 97.05 0.01 -1
+De 15 0 11 0 0
+Po 3 104.5 102.75 104.5 102.75 1 -1
+De 15 1 11 0 0
+Po 0 102.5 102.75 104.5 102.75 0.01 -1
+De 0 0 11 512EBB9B 0
+Po 3 102.5 102.75 102.5 102.75 1 -1
+De 15 1 11 0 0
+Po 0 102.5 100.75 102.5 102.75 0.01 -1
+De 15 0 11 512EBB98 0
+Po 3 102.5 100.75 102.5 100.75 1 -1
+De 15 1 11 0 0
+Po 0 102.5 97.5 102.5 100.75 0.01 -1
+De 0 0 11 512EBB95 0
+Po 3 102.5 97.5 102.5 97.5 1 -1
+De 15 1 11 0 0
+Po 0 102.95 97.05 102.5 97.5 0.01 -1
+De 15 0 11 512EBB8C 0
+Po 0 116.81 87 116.81 86.06 0.01 -1
+De 0 0 11 0 0
+Po 3 107 89.25 107 89.25 1 -1
+De 15 1 11 0 0
+Po 0 107 87.75 107 89.25 0.01 -1
+De 0 0 11 512EBB77 0
+Po 3 107 87.75 107 87.75 1 -1
+De 15 1 11 0 0
+Po 0 107 86.25 107 87.75 0.01 -1
+De 15 0 11 512EBB74 0
+Po 3 107 86.25 107 86.25 1 -1
+De 15 1 11 0 0
+Po 0 107.5 85.75 107 86.25 0.01 -1
+De 0 0 11 512EBB6E 0
+Po 0 116.5 85.75 107.5 85.75 0.01 -1
+De 0 0 11 512EBB69 0
+Po 0 116.81 86.06 116.5 85.75 0.01 -1
+De 0 0 11 512EBB66 0
 Po 0 116.61 90.89 116.61 87.2 0.4 -1
 De 0 0 11 0 0
 Po 0 115.5 92 116.61 90.89 0.4 -1
