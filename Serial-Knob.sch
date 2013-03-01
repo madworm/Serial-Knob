@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 01 Mar 2013 09:15:15 AM CET
+EESchema Schematic File Version 2  date Fri 01 Mar 2013 01:11:33 PM CET
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -50,8 +50,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 2750 5600 2750
 Wire Wire Line
-	2750 3250 2750 3300
-Wire Wire Line
 	5700 3250 5600 3250
 Wire Wire Line
 	5700 3200 5700 3300
@@ -67,7 +65,7 @@ F 3 "" H 5700 3000 60  0001 C CNN
 	1    5700 3000
 	1    0    0    -1  
 $EndComp
-Text Label 2600 3400 3    60   ~ 0
+Text Label 2900 3250 2    60   ~ 0
 RESET
 $Comp
 L VCC #PWR01
@@ -100,28 +98,16 @@ BUTTON
 $Comp
 L VCC #PWR03
 U 1 1 4F6EE70F
-P 2750 3800
-F 0 "#PWR03" H 2750 3900 30  0001 C CNN
-F 1 "VCC" H 2750 3900 30  0000 C CNN
-F 2 "" H 2750 3800 60  0001 C CNN
-F 3 "" H 2750 3800 60  0001 C CNN
-	1    2750 3800
+P 1650 2600
+F 0 "#PWR03" H 1650 2700 30  0001 C CNN
+F 1 "VCC" H 1650 2700 30  0000 C CNN
+F 2 "" H 1650 2600 60  0001 C CNN
+F 3 "" H 1650 2600 60  0001 C CNN
+	1    1650 2600
 	-1   0    0    1   
 $EndComp
-$Comp
-L R R1
-U 1 1 4F6EC6DD
-P 2750 3550
-F 0 "R1" V 2750 3550 50  0000 C CNN
-F 1 "10k" V 2650 3550 50  0000 C CNN
-F 2 "" H 2750 3550 60  0001 C CNN
-F 3 "" H 2750 3550 60  0001 C CNN
-	1    2750 3550
-	-1   0    0    1   
-$EndComp
-Connection ~ 2750 3250
 Wire Wire Line
-	2600 3250 2900 3250
+	1750 3250 2900 3250
 $Comp
 L PWR_FLAG #FLG04
 U 1 1 50ED815F
@@ -201,10 +187,8 @@ Text Label 3450 1900 2    60   ~ 0
 BUTTON
 Wire Wire Line
 	2600 2750 2900 2750
-Text Label 1950 1950 1    60   ~ 0
+Text Label 1950 2050 1    60   ~ 0
 TX
-Wire Wire Line
-	2600 3250 2600 3400
 Text Label 2900 3050 2    60   ~ 0
 LED
 $Comp
@@ -300,7 +284,7 @@ NoConn ~ 6550 1150
 NoConn ~ 6550 1050
 NoConn ~ 6550 950 
 NoConn ~ 6550 850 
-Text Label 1850 1950 1    60   ~ 0
+Text Label 1850 2050 1    60   ~ 0
 PB4
 $Comp
 L PWR_FLAG #FLG010
@@ -414,17 +398,6 @@ F 3 "" H 2650 2350 60  0000 C CNN
 	1    2650 2350
 	0    -1   -1   0   
 $EndComp
-$Comp
-L R_PACK4 RP1
-U 1 1 51305642
-P 2000 2350
-F 0 "RP1" H 2000 2800 40  0000 C CNN
-F 1 "1k" H 2000 2300 40  0000 C CNN
-F 2 "" H 2000 2350 60  0000 C CNN
-F 3 "" H 2000 2350 60  0000 C CNN
-	1    2000 2350
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2600 2550 2600 2750
 Wire Wire Line
@@ -471,8 +444,25 @@ Wire Wire Line
 	1850 2550 1850 3150
 Wire Wire Line
 	1850 3150 2900 3150
-NoConn ~ 1650 2550
-NoConn ~ 1750 2550
-NoConn ~ 1750 2150
-NoConn ~ 1650 2150
+$Comp
+L R_PACK4 RP1
+U 1 1 51305642
+P 2000 2350
+F 0 "RP1" H 2000 2800 40  0000 C CNN
+F 1 "2.2k" H 2000 2300 40  0000 C CNN
+F 2 "" H 2000 2350 60  0000 C CNN
+F 3 "" H 2000 2350 60  0000 C CNN
+	1    2000 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1750 3250 1750 2550
+Wire Wire Line
+	1650 2550 1650 2600
+Wire Wire Line
+	1750 2150 1750 2100
+Wire Wire Line
+	1750 2100 1650 2100
+Wire Wire Line
+	1650 2100 1650 2150
 $EndSCHEMATC
