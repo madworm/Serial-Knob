@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Thu 28 Feb 2013 01:50:15 PM CET
+Cmp-Mod V01 Created by CvPcb (2013-02-28 BZR 3978)-testing date = Fri 01 Mar 2013 08:23:25 AM CET
 
 BeginCmp
 TimeStamp = /4F76EBA8;
@@ -71,52 +71,24 @@ IdModule  = MADW__SIL-4;
 EndCmp
 
 BeginCmp
-TimeStamp = /50FE472E;
-Reference = R1;
-ValeurCmp = 1k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FE473D;
-Reference = R2;
-ValeurCmp = 1k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FE474C;
-Reference = R3;
-ValeurCmp = 1k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /50EDA6E8;
-Reference = R4;
-ValeurCmp = 1k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FE56B2;
-Reference = R5;
-ValeurCmp = 1k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /50FE56C1;
-Reference = R6;
-ValeurCmp = 1k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F6EC6DD;
-Reference = R7;
+Reference = R1;
 ValeurCmp = 10k;
 IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51305642;
+Reference = RP1;
+ValeurCmp = 1k;
+IdModule  = MADW__1206*4_resistor_array;
+EndCmp
+
+BeginCmp
+TimeStamp = /51305629;
+Reference = RP2;
+ValeurCmp = 1k;
+IdModule  = MADW__1206*4_resistor_array;
 EndCmp
 
 EndListe
