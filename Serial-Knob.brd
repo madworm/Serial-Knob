@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Fri 01 Mar 2013 02:42:19 PM CET
+PCBNEW-BOARD Version 2 date Fri 01 Mar 2013 06:23:46 PM CET
 
 # Created by Pcbnew(2013-02-28 BZR 3978)-testing
 
@@ -10,7 +10,7 @@ EnabledLayers 12F08001
 Links 30
 NoConn 0
 Di 94.600001 79.600001 133.833334 108.850001
-Ndraw 39
+Ndraw 44
 Ntrack 263
 Nzone 0
 BoardThickness 1.6002
@@ -41,7 +41,7 @@ TrackClearence 0.18
 ZoneClearence 0.2
 Zone_45_Only 1
 TrackMinWidth 0.01
-DrawSegmWidth 0.05
+DrawSegmWidth 0.2
 EdgeSegmWidth 0.2
 ViaSize 0.65
 ViaDrill 0.35
@@ -55,7 +55,7 @@ MicroViaMinSize 0.508
 MicroViaMinDrill 0.127
 TextPcbWidth 0.2
 TextPcbSize 1 1
-EdgeModWidth 0.05
+EdgeModWidth 0.2
 TextModSize 1 1
 TextModWidth 0.2
 PadSize 4 4
@@ -63,7 +63,7 @@ PadDrill 2.5
 Pad2MaskClearance 0
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
-VisibleElements 7FFFDFBF
+VisibleElements 7FFFFFBF
 PcbPlotParams (pcbplotparams (layerselection 317751297) (usegerberextensions true) (excludeedgelayer false) (linewidth 80) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerber_files/))
 $EndSETUP
 
@@ -167,6 +167,86 @@ uViaDrill 0.127
 AddNet "GND"
 AddNet "VCC"
 $EndNCLASS
+$MODULE MADW__mounting_hole_2mm
+Po 122 106 0 15 5130E234 50FE57E2 ~~
+Li MADW__mounting_hole_2mm
+Cd M2 mounting hole - should fit DIN7985 TORX
+Sc 50FE57E2
+AR /50FE4BEE
+Op 0 0 0
+T0 0.2 -0.3 1 1 0 0.2 N I 21 N "MH4"
+T1 0 -0.4 1 1 0 0.2 N I 21 N "CONN_1"
+DC 0 0 -2.2 0 0.2 21
+DC 0 0 2.2 0 0.2 20
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 2.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+.LocalClearance 1.1
+$EndPAD
+$EndMODULE MADW__mounting_hole_2mm
+$MODULE MADW__mounting_hole_2mm
+Po 104 106 0 15 5130E1F6 50FE5865 ~~
+Li MADW__mounting_hole_2mm
+Cd M2 mounting hole - should fit DIN7985 TORX
+Sc 50FE5865
+AR /50FE4BC1
+Op 0 0 0
+T0 0.4 -0.1 1 1 0 0.2 N I 21 N "MH1"
+T1 0.4 -0.2 1 1 0 0.2 N I 21 N "CONN_1"
+DC 0 0 -2.2 0 0.2 21
+DC 0 0 2.2 0 0.2 20
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 2.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+.LocalClearance 1.1
+$EndPAD
+$EndMODULE MADW__mounting_hole_2mm
+$MODULE MADW__mounting_hole_2mm
+Po 104 88 0 15 5130E1AB 50FE5860 ~~
+Li MADW__mounting_hole_2mm
+Cd M2 mounting hole - should fit DIN7985 TORX
+Sc 50FE5860
+AR /50FE4BDF
+Op 0 0 0
+T0 0.1 0 1 1 0 0.2 N I 21 N "MH3"
+T1 0.4 0 1 1 0 0.2 N I 21 N "CONN_1"
+DC 0 0 -2.2 0 0.2 21
+DC 0 0 2.2 0 0.2 20
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 2.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+.LocalClearance 1.1
+$EndPAD
+$EndMODULE MADW__mounting_hole_2mm
+$MODULE MADW__mounting_hole_2mm
+Po 122 88 0 15 5130E13A 50FE586A ~~
+Li MADW__mounting_hole_2mm
+Cd M2 mounting hole - should fit DIN7985 TORX
+Sc 50FE586A
+AR /50FE4BD0
+Op 0 0 0
+T0 0.1 0 1 1 0 0.2 N I 21 N "MH2"
+T1 0 3.74 1 1 0 0.2 N I 21 N "CONN_1"
+DC 0 0 2.2 -0.15 0.2 20
+DC 0 0 2.2 0 0.2 21
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 2.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+.LocalClearance 1.1
+$EndPAD
+$EndMODULE MADW__mounting_hole_2mm
 $MODULE MADW__ALPS-STEC12E08
 Po 113 99 0 15 5130A5E3 50FE4843 ~~
 Li MADW__ALPS-STEC12E08
@@ -3226,82 +3306,6 @@ Ne 11 "GND"
 Po 0.94996 0
 $EndPAD
 $EndMODULE -C0805
-$MODULE MADW__mounting_hole_2mm
-Po 122 88 0 15 5110DE1F 50FE586A ~~
-Li MADW__mounting_hole_2mm
-Cd M2 mounting hole - should fit DIN7985 TORX
-Sc 50FE586A
-AR /50FE4BD0
-Op 0 0 0
-T0 0.1 0 1 1 0 0.2 N I 21 N "MH2"
-T1 0 3.74 1 1 0 0.2 N I 21 N "CONN_1"
-DC 0 0 2.2 0 0.2 21
-$PAD
-Sh "1" C 2.5 2.5 0 0 0
-Dr 2.1 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 0 0
-.LocalClearance 1.1
-$EndPAD
-$EndMODULE MADW__mounting_hole_2mm
-$MODULE MADW__mounting_hole_2mm
-Po 104 106 0 15 5110DE33 50FE5865 ~~
-Li MADW__mounting_hole_2mm
-Cd M2 mounting hole - should fit DIN7985 TORX
-Sc 50FE5865
-AR /50FE4BC1
-Op 0 0 0
-T0 0.4 -0.1 1 1 0 0.2 N I 21 N "MH1"
-T1 0.4 -0.2 1 1 0 0.2 N I 21 N "CONN_1"
-DC 0 0 2.2 0 0.2 21
-$PAD
-Sh "1" C 2.5 2.5 0 0 0
-Dr 2.1 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 0 0
-.LocalClearance 1.1
-$EndPAD
-$EndMODULE MADW__mounting_hole_2mm
-$MODULE MADW__mounting_hole_2mm
-Po 104 88 0 15 5110DE37 50FE5860 ~~
-Li MADW__mounting_hole_2mm
-Cd M2 mounting hole - should fit DIN7985 TORX
-Sc 50FE5860
-AR /50FE4BDF
-Op 0 0 0
-T0 0.1 0 1 1 0 0.2 N I 21 N "MH3"
-T1 0.4 0 1 1 0 0.2 N I 21 N "CONN_1"
-DC 0 0 2.2 0 0.2 21
-$PAD
-Sh "1" C 2.5 2.5 0 0 0
-Dr 2.1 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 0 0
-.LocalClearance 1.1
-$EndPAD
-$EndMODULE MADW__mounting_hole_2mm
-$MODULE MADW__mounting_hole_2mm
-Po 122 106 0 15 5110DE27 50FE57E2 ~~
-Li MADW__mounting_hole_2mm
-Cd M2 mounting hole - should fit DIN7985 TORX
-Sc 50FE57E2
-AR /50FE4BEE
-Op 0 0 0
-T0 0.2 -0.3 1 1 0 0.2 N I 21 N "MH4"
-T1 0 -0.4 1 1 0 0.2 N I 21 N "CONN_1"
-DC 0 0 2.2 0 0.2 21
-$PAD
-Sh "1" C 2.5 2.5 0 0 0
-Dr 2.1 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 0 0
-.LocalClearance 1.1
-$EndPAD
-$EndMODULE MADW__mounting_hole_2mm
 $MODULE MADW__CHIPLED-0805
 Po 113 90.35 2700 15 5120B6A9 50FE5090 ~~
 Li MADW__CHIPLED-0805
@@ -3533,6 +3537,27 @@ Ne 4 "/LED"
 Po 1.325 -0.9
 $EndPAD
 $EndMODULE MADW__1206*4_resistor_array
+$DRAWSEGMENT
+Po 0 106.15 103.9 106.45 103.9 0.2
+De 20 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 104.95 105.05 106.15 103.9 0.2
+De 20 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 104.95 105.05 105.55 104.9 0.2
+De 20 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 104.95 105.05 105.1 104.45 0.2
+De 20 0 900 0 0
+$EndDRAWSEGMENT
+$TEXTPCB
+Te "M2"
+Po 107.55 103.8 1 1 0.2 1800
+De 20 0 0 Normal
+$EndTEXTPCB
 $TEXTPCB
 Te "V0.2 2013"
 Po 123.7 95.25 0.8 0.8 0.2 900
