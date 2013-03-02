@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-02-28 BZR 3978)-testing date = Fri 01 Mar 2013 01:12:01 PM CET
+Cmp-Mod V01 Created by PcbNew date = Sat 02 Mar 2013 05:16:50 AM CET
 
 BeginCmp
 TimeStamp = /4F76EBA8;
@@ -17,8 +17,8 @@ EndCmp
 BeginCmp
 TimeStamp = /5128F4BC;
 Reference = ENC1;
-ValeurCmp = ALPS-STEC12E08;
-IdModule  = MADW__ALPS-STEC12E08;
+ValeurCmp = EN11-HSM1AF15;
+IdModule  = MADW__EN11-HSM1AF15;
 EndCmp
 
 BeginCmp
