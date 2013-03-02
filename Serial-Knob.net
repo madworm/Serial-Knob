@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/robert/Electronics/Arduino/KiCAD/Projects/Serial-Knob/Serial-Knob.sch)
-    (date "Fri 01 Mar 2013 01:11:42 PM CET")
+    (date "Sat 02 Mar 2013 05:01:49 AM CET")
     (tool "eeschema (2013-02-28 BZR 3978)-testing"))
   (components
     (comp (ref C1)
@@ -51,7 +51,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5104EF69))
     (comp (ref ENC1)
-      (value ALPS-STEC12E08)
+      (value EN11-HSM1AF15)
       (libsource (lib my_parts) (part MADW__ALPS-STEC12E08))
       (sheetpath (names /) (tstamps /))
       (tstamp 5128F4BC))

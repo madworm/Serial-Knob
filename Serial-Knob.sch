@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 01 Mar 2013 01:11:33 PM CET
+EESchema Schematic File Version 2  date Sat 02 Mar 2013 05:01:35 AM CET
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr User 8268 5906
 encoding utf-8
 Sheet 1 1
 Title "Serial Knob - a.k.a. \"The Knob\""
-Date "1 mar 2013"
+Date "2 mar 2013"
 Rev "0.2"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -381,7 +381,7 @@ L MADW__ALPS-STEC12E08 ENC1
 U 1 1 5128F4BC
 P 4050 2050
 F 0 "ENC1" H 4050 2425 60  0000 C CNN
-F 1 "ALPS-STEC12E08" H 4000 2550 60  0000 C CNN
+F 1 "EN11-HSM1AF15" H 4000 2550 60  0000 C CNN
 F 2 "" H 4050 2050 60  0000 C CNN
 F 3 "" H 4050 2050 60  0000 C CNN
 	1    4050 2050
