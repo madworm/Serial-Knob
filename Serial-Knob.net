@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/robert/Electronics/Arduino/KiCAD/Projects/Serial-Knob/Serial-Knob.sch)
-    (date "Sat 02 Mar 2013 05:01:49 AM CET")
-    (tool "eeschema (2013-02-28 BZR 3978)-testing"))
+    (date "Mon 04 Mar 2013 06:37:04 AM CET")
+    (tool "eeschema (2013-03-02 BZR 3981)-testing"))
   (components
     (comp (ref C1)
       (value 4µ7)

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 02 Mar 2013 05:01:35 AM CET
+EESchema Schematic File Version 2  date Mon 04 Mar 2013 06:37:14 AM CET
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 1
 Title "Serial Knob - a.k.a. \"The Knob\""
 Date "2 mar 2013"
-Rev "0.2"
+Rev "1.00"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
