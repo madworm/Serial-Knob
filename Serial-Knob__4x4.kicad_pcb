@@ -8,7 +8,7 @@
     (drawings 136)
     (tracks 1068)
     (zones 0)
-    (modules 92)
+    (modules 108)
     (nets 16)
   )
 
@@ -140,8 +140,264 @@
     (add_net VCC)
   )
 
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B9B0)
+    (at 113 82.5)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B9AA)
+    (at 87.5 82.5)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B9A1)
+    (at 125 70.5)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B99D)
+    (at 101 70.5)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B999)
+    (at 99.5 70.5)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B991)
+    (at 75.5 70.5)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B984)
+    (at 113 58.5)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B97E)
+    (at 113 57)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B972)
+    (at 87.5 58.5)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B8EB)
+    (at 87.5 57)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B8E6)
+    (at 101 45)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B8D9)
+    (at 125 45)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B8CF)
+    (at 113 33)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B8CA)
+    (at 99.5 45)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B8C0)
+    (at 75.5 45)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135B81E)
+    (at 87.5 33)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (path 1pin)
+    (fp_text reference 1PIN (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135AA50)
-    (at 113.5 57)
+    (at 113.75 57)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -157,7 +413,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135AA4C)
-    (at 101 45.5)
+    (at 101 45.75)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -173,7 +429,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135AA48)
-    (at 101 44.5)
+    (at 101 44.25)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -189,7 +445,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135AA44)
-    (at 125 45.5)
+    (at 125 45.75)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -205,7 +461,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135AA40)
-    (at 113.5 33)
+    (at 113.75 33)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -221,7 +477,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135AA3C)
-    (at 125 44.5)
+    (at 125 44.25)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -237,7 +493,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135AA38)
-    (at 112.5 57)
+    (at 112.25 57)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -253,7 +509,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135AA34)
-    (at 112.5 33)
+    (at 112.25 33)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2755,7 +3011,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A7D0)
-    (at 87 33)
+    (at 86.75 33)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2771,7 +3027,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A7CC)
-    (at 87 57)
+    (at 86.75 57)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2787,7 +3043,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A7C8)
-    (at 99.5 44.5)
+    (at 99.5 44.25)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2803,7 +3059,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A7C4)
-    (at 88 33)
+    (at 88.25 33)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2819,7 +3075,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A7C0)
-    (at 99.5 45.5)
+    (at 99.5 45.75)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2835,7 +3091,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A7BC)
-    (at 75.5 44.5)
+    (at 75.5 44.25)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2851,7 +3107,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A7B8)
-    (at 75.5 45.5)
+    (at 75.5 45.75)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2867,7 +3123,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A7B4)
-    (at 88 57)
+    (at 88.25 57)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2883,7 +3139,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A67C)
-    (at 88 82.5)
+    (at 88.25 82.5)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2899,7 +3155,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A678)
-    (at 75.5 71)
+    (at 75.5 71.25)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2915,7 +3171,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A674)
-    (at 75.5 70)
+    (at 75.5 69.75)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2931,7 +3187,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A670)
-    (at 99.5 71)
+    (at 99.5 71.25)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2947,7 +3203,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A66C)
-    (at 88 58.5)
+    (at 88.25 58.5)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2963,7 +3219,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A668)
-    (at 99.5 70)
+    (at 99.5 69.75)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2979,7 +3235,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A664)
-    (at 87 82.5)
+    (at 86.75 82.5)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -2995,7 +3251,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A660)
-    (at 87 58.5)
+    (at 86.75 58.5)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -5497,7 +5753,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A149)
-    (at 112.5 58.5)
+    (at 112.25 58.5)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -5513,7 +5769,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A145)
-    (at 112.5 82.5)
+    (at 112.25 82.5)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -5529,7 +5785,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A141)
-    (at 125 70)
+    (at 125 69.75)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -5545,7 +5801,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A13D)
-    (at 113.5 58.5)
+    (at 113.75 58.5)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -5561,7 +5817,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A139)
-    (at 125 71)
+    (at 125 71.25)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -5577,7 +5833,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A135)
-    (at 101 70)
+    (at 101 69.75)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -5593,7 +5849,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A131)
-    (at 101 71)
+    (at 101 71.25)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -5609,7 +5865,7 @@
   )
 
   (module 1pin (layer Front) (tedit 51359BAD) (tstamp 5135A12D)
-    (at 113.5 82.5)
+    (at 113.75 82.5)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
