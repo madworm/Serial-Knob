@@ -5112,9 +5112,9 @@
     )
   )
 
-  (module MADW__mouse-byte-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A3115)
+  (module MADW__mouse-bite-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A3115)
     (at 100.25 50.75 90)
-    (fp_text reference mouse-byte-2mm (at 0 -2 90) (layer F.SilkS) hide
+    (fp_text reference mouse-bite-2mm (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1 90) (layer F.SilkS) hide
@@ -5142,9 +5142,9 @@
     )
   )
 
-  (module MADW__mouse-byte-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A312C)
+  (module MADW__mouse-bite-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A312C)
     (at 81.75 57.75)
-    (fp_text reference mouse-byte-2mm (at 0 -2) (layer F.SilkS) hide
+    (fp_text reference mouse-bite-2mm (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1) (layer F.SilkS) hide
@@ -5172,9 +5172,9 @@
     )
   )
 
-  (module MADW__mouse-byte-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A3143)
+  (module MADW__mouse-bite-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A3143)
     (at 93.25 57.75)
-    (fp_text reference mouse-byte-2mm (at 0 -2) (layer F.SilkS) hide
+    (fp_text reference mouse-bite-2mm (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1) (layer F.SilkS) hide
@@ -5202,9 +5202,9 @@
     )
   )
 
-  (module MADW__mouse-byte-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A3171)
+  (module MADW__mouse-bite-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A3171)
     (at 107.25 57.75)
-    (fp_text reference mouse-byte-2mm (at 0 -2) (layer F.SilkS) hide
+    (fp_text reference mouse-bite-2mm (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1) (layer F.SilkS) hide
@@ -5232,9 +5232,9 @@
     )
   )
 
-  (module MADW__mouse-byte-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A3188)
+  (module MADW__mouse-bite-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A3188)
     (at 118.75 57.75)
-    (fp_text reference mouse-byte-2mm (at 0 -2) (layer F.SilkS) hide
+    (fp_text reference mouse-bite-2mm (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1) (layer F.SilkS) hide
@@ -5262,9 +5262,9 @@
     )
   )
 
-  (module MADW__mouse-byte-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A319F)
+  (module MADW__mouse-bite-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A319F)
     (at 100.25 64.75 90)
-    (fp_text reference mouse-byte-2mm (at 0 -2 90) (layer F.SilkS) hide
+    (fp_text reference mouse-bite-2mm (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1 90) (layer F.SilkS) hide
@@ -5292,9 +5292,9 @@
     )
   )
 
-  (module MADW__mouse-byte-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A31B6)
+  (module MADW__mouse-bite-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A31B6)
     (at 100.25 76.25 90)
-    (fp_text reference mouse-byte-2mm (at 0 -2 90) (layer F.SilkS) hide
+    (fp_text reference mouse-bite-2mm (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1 90) (layer F.SilkS) hide
@@ -5322,9 +5322,9 @@
     )
   )
 
-  (module MADW__mouse-byte-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A31D8)
+  (module MADW__mouse-bite-2mm-slot (layer Front) (tedit 514A1D6F) (tstamp 514A31D8)
     (at 100.25 39.25 90)
-    (fp_text reference mouse-byte-2mm (at 0 -2 90) (layer F.SilkS) hide
+    (fp_text reference mouse-bite-2mm (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.1 90) (layer F.SilkS) hide
