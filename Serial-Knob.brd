@@ -1,6 +1,6 @@
-PCBNEW-BOARD Version 2 date Mon 04 Mar 2013 06:48:52 AM CET
+PCBNEW-BOARD Version 2 date Wed 27 Mar 2013 11:42:16 AM CET
 
-# Created by Pcbnew(2013-03-02 BZR 3981)-testing
+# Created by Pcbnew(2013-03-26 BZR 4031)-testing
 
 $GENERAL
 encoding utf-8
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet User 8268 5866
 Title "Serial Knob - a.k.a. \"The Knob\""
-Date "4 mar 2013"
+Date "27 mar 2013"
 Rev "1.00"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -58,8 +58,8 @@ TextPcbSize 1 1
 EdgeModWidth 0.2
 TextModSize 1 1
 TextModWidth 0.2
-PadSize 4.25 4.25
-PadDrill 2.8
+PadSize 2.1 2.1
+PadDrill 2.1
 Pad2MaskClearance 0
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
@@ -242,7 +242,7 @@ Po -5.55 0
 $EndPAD
 $EndMODULE MADW__EN11-HSM1AF15
 $MODULE MADW__mounting_hole_2mm
-Po 122 106 0 15 5130E234 50FE57E2 ~~
+Po 122 106 0 15 5152CD02 50FE57E2 ~~
 Li MADW__mounting_hole_2mm
 Cd M2 mounting hole - should fit DIN7985 TORX
 Sc 50FE57E2
@@ -253,16 +253,16 @@ T1 0 -0.4 1 1 0 0.2 N I 21 N "CONN_1"
 DC 0 0 -2.2 0 0.2 21
 DC 0 0 2.2 0 0.2 20
 $PAD
-Sh "1" C 2.5 2.5 0 0 0
+Sh "" C 2.1 2.1 0 0 0
 Dr 2.1 0 0
-At STD N 00E0FFFF
+At HOLE N 00E0FFFF
 Ne 0 ""
 Po 0 0
 .LocalClearance 1.1
 $EndPAD
 $EndMODULE MADW__mounting_hole_2mm
 $MODULE MADW__mounting_hole_2mm
-Po 104 106 0 15 5130E1F6 50FE5865 ~~
+Po 104 106 0 15 5152CCFB 50FE5865 ~~
 Li MADW__mounting_hole_2mm
 Cd M2 mounting hole - should fit DIN7985 TORX
 Sc 50FE5865
@@ -273,16 +273,16 @@ T1 0.4 -0.2 1 1 0 0.2 N I 21 N "CONN_1"
 DC 0 0 -2.2 0 0.2 21
 DC 0 0 2.2 0 0.2 20
 $PAD
-Sh "1" C 2.5 2.5 0 0 0
+Sh "" C 2.1 2.1 0 0 0
 Dr 2.1 0 0
-At STD N 00E0FFFF
+At HOLE N 00E0FFFF
 Ne 0 ""
 Po 0 0
 .LocalClearance 1.1
 $EndPAD
 $EndMODULE MADW__mounting_hole_2mm
 $MODULE MADW__mounting_hole_2mm
-Po 104 88 0 15 5130E1AB 50FE5860 ~~
+Po 104 88 0 15 5152CB4C 50FE5860 ~~
 Li MADW__mounting_hole_2mm
 Cd M2 mounting hole - should fit DIN7985 TORX
 Sc 50FE5860
@@ -293,16 +293,16 @@ T1 0.4 0 1 1 0 0.2 N I 21 N "CONN_1"
 DC 0 0 -2.2 0 0.2 21
 DC 0 0 2.2 0 0.2 20
 $PAD
-Sh "1" C 2.5 2.5 0 0 0
+Sh "" C 2.1 2.1 0 0 0
 Dr 2.1 0 0
-At STD N 00E0FFFF
+At HOLE N 00E0FFFF
 Ne 0 ""
 Po 0 0
 .LocalClearance 1.1
 $EndPAD
 $EndMODULE MADW__mounting_hole_2mm
 $MODULE MADW__mounting_hole_2mm
-Po 122 88 0 15 5130E13A 50FE586A ~~
+Po 122 88 0 15 5152CCEC 50FE586A ~~
 Li MADW__mounting_hole_2mm
 Cd M2 mounting hole - should fit DIN7985 TORX
 Sc 50FE586A
@@ -313,9 +313,9 @@ T1 0 3.74 1 1 0 0.2 N I 21 N "CONN_1"
 DC 0 0 2.2 -0.15 0.2 20
 DC 0 0 2.2 0 0.2 21
 $PAD
-Sh "1" C 2.5 2.5 0 0 0
+Sh "" C 2.1 2.1 0 0 0
 Dr 2.1 0 0
-At STD N 00E0FFFF
+At HOLE N 00E0FFFF
 Ne 0 ""
 Po 0 0
 .LocalClearance 1.1
