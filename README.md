@@ -14,7 +14,7 @@ be used as a stepper-controller tester. Turn the knob, and the stepper should fo
 
 You will find code for this project in [this](https://github.com/madworm/ATtiny_projects/tree/master/85/Serial-Knob) repository.
 
-[![Serial-Knob panel](https://raw.github.com/madworm/Serial-Knob/master/gerber_files__4x4/PNGs/Serial-Knob__front_purple.png)](https://raw.github.com/madworm/Serial-Knob/master/gerber_files__4x4/PNGs/Serial-Knob__front_purple.png)
+[![Serial-Knob panel](/gerber_files__4x4/PNGs/Serial-Knob__front_purple.png)](/gerber_files__4x4/PNGs/Serial-Knob__front_purple.png)
 
 ---
 
