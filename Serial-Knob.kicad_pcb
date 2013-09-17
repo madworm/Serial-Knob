@@ -1,4 +1,4 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-06-27 BZR 4227)-testing")
+(kicad_pcb (version 3) (host pcbnew "(2013-09-16 BZR 4319)-product")
 
   (general
     (links 30)
@@ -60,7 +60,7 @@
     (pad_drill 2.1)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFBF)
+    (visible_elements 7FFFFF3F)
     (pcbplotparams
       (layerselection 317751297)
       (usegerberextensions true)
@@ -338,12 +338,12 @@
     )
   )
 
-  (module LOGO (layer Front) (tedit 511E9F61) (tstamp 511E9EE4)
+  (module TINDIE_DOG (layer Front) (tedit 511E9F61) (tstamp 511E9EE4)
     (at 102.75 98.425)
     (fp_text reference G3 (at 0 1.43764) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value Tindie (at 0 -1.43764) (layer F.SilkS) hide
+    (fp_text value TINDIE_DOG (at 0 -1.43764) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_poly (pts (xy 1.1049 -1.02616) (xy 1.1049 -1.01092) (xy 1.09728 -0.98806) (xy 1.08712 -0.96774)
@@ -732,7 +732,7 @@
       (xy 0.05334 -0.78232) (xy 0.05588 -0.77216) (xy 0.05588 -0.77216)) (layer F.Mask) (width 0.00254))
   )
 
-  (module MADW__SIL-4   locked (layer Front) (tedit 511BD400) (tstamp 4F770487)
+  (module MADW__SIL-4 locked (layer Front) (tedit 511BD400) (tstamp 4F770487)
     (at 113 87 180)
     (descr "Connecteur 4 pibs")
     (tags "CONN DEV")
@@ -850,13 +850,12 @@
     )
   )
 
-  (module LOGO (layer Front) (tedit 50B20D2E) (tstamp 4F6EF687)
+  (module LED_SMILE (layer Front) (tedit 5238286E) (tstamp 4F6EF687)
     (at 122.55 101.65)
-    (path LOGO)
     (fp_text reference G2 (at 0 1.97104) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value LOGO (at 0 -1.97104) (layer F.SilkS) hide
+    (fp_text value LED_SMILE (at 0 -1.97104) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_poly (pts (xy 0.64516 1.49606) (xy 0.68834 1.49098) (xy 0.72898 1.47828) (xy 0.74676 1.46812)
@@ -1079,12 +1078,12 @@
       (xy 0.56134 -0.65532) (xy 0.60452 -0.64262) (xy 0.6096 -0.64262) (xy 0.65278 -0.64008)) (layer F.SilkS) (width 0.00254))
   )
 
-  (module "" (layer Front) (tedit 4F6EF696) (tstamp 4F6EF67F)
+  (module OSHW_LOGO (layer Front) (tedit 52382864) (tstamp 4F6EF67F)
     (at 103.45 101.65)
     (fp_text reference G1 (at 0 1.77038) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value LOGO (at 0 -1.77038) (layer F.SilkS) hide
+    (fp_text value OSHW_LOGO (at 0 -1.77038) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_poly (pts (xy -1.01092 1.4986) (xy -0.99314 1.48844) (xy -0.95504 1.46558) (xy -0.89916 1.42748)
